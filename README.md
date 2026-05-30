@@ -172,6 +172,7 @@ Total Score =
 + Risk Score    * 0.20
 + Econ Score    * 0.25
 + Ladder Score  * 0.15
+```
 
 
 ## Framework Diagram
