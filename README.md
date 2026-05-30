@@ -179,7 +179,7 @@ Total Score =
 
 The diagram below summarizes the full stage-gate decision process, from brand intent scoring through the final Go / Conditional Go / No-Go recommendation.
 
-![Stage-Gate Framework](visuals/stage_gate_framework.png)
+![Stage-Gate Framework](stage_gate_framework.png)
 
 
 ## Model Limitations
