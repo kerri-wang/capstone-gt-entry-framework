@@ -172,3 +172,31 @@ Total Score =
 + Risk Score    * 0.20
 + Econ Score    * 0.25
 + Ladder Score  * 0.15
+
+
+## Framework Diagram
+
+The diagram below summarizes the full stage-gate decision process, from brand intent scoring through the final Go / Conditional Go / No-Go recommendation.
+
+![Stage-Gate Framework](visuals/stage_gate_framework.png)
+
+
+## Model Limitations
+
+This model is designed as an early-stage decision-support framework, not a replacement for detailed engineering, financial, legal, or operational due diligence.
+
+Key limitations include:
+
+- **Synthetic data:** The public version uses synthetic and public-style proxy data to protect confidentiality. Results should be interpreted as a demonstration of the framework rather than real-world recommendations.
+- **Simplified homologation assumptions:** Regulatory complexity, homologation cycles, Evo package timing, and sanctioning-body requirements are simplified.
+- **Proxy cost estimates:** Bill-of-materials and conversion costs are estimated using synthetic cost bands rather than supplier quotes or internal OEM cost models.
+- **Demand uncertainty:** Customer racing demand is modeled through simplified market proxies, adoption assumptions, and capture-rate estimates.
+- **Business-rule weights:** Final scoring weights are based on structured business logic and should be calibrated with stakeholder input before real-world use.
+- **Limited validation:** The public model has not been validated against actual race team purchase decisions or historical OEM racing program outcomes.
+- **Operational cost simplification:** OEM-side obligations such as trackside engineers, parts trucks, manufacturer fees, logistics, and customer support are simplified.
+
+These limitations make the framework most useful as a structured triage tool: it helps narrow options, surface tradeoffs, and identify which platform-class pairings deserve deeper technical and commercial review.
+
+
+
+
